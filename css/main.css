@@ -1,0 +1,83 @@
+/* 页面初始化 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body,#warpper {
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* div {
+    border: 1px solid #000000;
+} */
+
+/* 内容居中布局 */
+.contentMiddle {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 标题 */
+#title {
+    height: 80px;
+    line-height: 80px;
+    color: #0068b7;
+}
+#companyName {
+    float: left;
+    vertical-align: center;
+    text-align: center;
+    width: 600px;
+    font-size: 30px;
+    color: #0068b7;
+
+}
+
+#tel {
+    margin-right: 60px;
+    float: right;
+    vertical-align: center;
+    font-size: 22px;
+}
+
+#phoneIcon {
+    width: 43px;
+    position: relative;
+    top: 11px;
+}
+
+#nav {
+    background: linear-gradient(#0068b7,#3b92d4,#54a0db,#ffffff);
+}
+#navList {
+    color: #ffffff;
+    text-align: center;
+    background: linear-gradient(#0068b7,#3b92d4,#54a0db,#ffffff);
+}
+
+#navList li {
+    border-right:1px solid #ffffff;
+    line-height: 40px;
+    height: 40px;
+    width: 16.5%;
+    float: left;
+}
+
+#navList li:first-child {
+    border-left:1px solid #ffffff;
+}
+
+
+/* 清除浮动流 */
+.clearFloat:after {
+    content: "";
+    display: block;
+    clear: both;
+}
