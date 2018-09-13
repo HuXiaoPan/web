@@ -1,0 +1,43 @@
+#bottom {
+    background: #137ac0;
+    color: #ffffff;
+}
+
+#bottom:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.whiteBar {
+    width: 2px;
+    height: 30px;
+    margin: 3px 20px;
+    background: #ffffff;
+}
+
+#bottomList li{
+    float: left;
+    position: relative;
+    top: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#iconList img {
+    height: 20px;
+}
+
+#iconList img:hover {
+    height: 23px;
+}
+
+#iconList li {
+    margin: 0px 15px;
+    margin-top: 8px;
+}
+
+.bottomMiddle {
+    height: 36px;
+    line-height: 36px;
+}

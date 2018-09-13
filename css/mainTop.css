@@ -9,6 +9,7 @@ html,
 body,
 #warpper {
     height: 100%;
+    position: relative;
     /* overflow: hidden; */
 }
 
@@ -16,9 +17,9 @@ ul {
     list-style-type: none;
 }
 
-div {
+/* div {
     border: 1px solid #000000;
-}
+} */
 
 
 /* 内容居中布局 */
@@ -40,7 +41,6 @@ div {
 
 #companyName {
     float: left;
-    vertical-align: center;
     text-align: center;
     width: 600px;
     font-size: 30px;
@@ -61,27 +61,8 @@ div {
 }
 
 #nav {
-    background: linear-gradient(#0068b7, #3b92d4, #54a0db, #ffffff);
+    background: linear-gradient(#0068b7,75%,#ffffff);
 }
-
-#navList {
-    color: #ffffff;
-    text-align: center;
-    background: linear-gradient(#0068b7, #3b92d4, #54a0db, #ffffff);
-}
-
-#navList li {
-    border-right: 1px solid #ffffff;
-    line-height: 40px;
-    height: 40px;
-    width: 16.5%;
-    float: left;
-}
-
-#navList li:first-child {
-    border-left: 1px solid #ffffff;
-}
-
 
 /* 清除浮动流 */
 
@@ -89,4 +70,9 @@ div {
     content: "";
     display: block;
     clear: both;
+}
+
+/* 页面整体最小宽度 */
+.minwidth {
+    min-width: 1140px;
 }
