@@ -1,0 +1,77 @@
+#carouselBox img {
+    width: 1140px;
+    height: 280px;
+}
+
+#carouselBox {
+    width: 1140px;
+    height: 280px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+#carouselImg {
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 1000%;
+    position: absolute;
+}
+
+#carouselImg li {
+    float: left;
+    list-style: none;
+}
+
+#carouselCircle {
+    left: 50%;
+    bottom: 10px;
+    margin-left: -75px;
+    position: absolute;
+}
+
+#carouselCircle li {
+    width: 20px;
+    height: 20px;
+    float: left;
+    color: #666;
+    cursor: pointer;
+    margin: 0px 5px;
+    list-style: none;
+    text-align: center;
+    border-radius: 10px;
+    background: #e4e4e4;
+    font: normal 12px/20px "conslas";
+}
+
+#carouselArrow {
+    top: 50%;
+    width: 100%;
+    position: absolute;
+    margin-top: -25px;
+}
+
+#carouselArrow li {
+    width: 35px;
+    height: 50px;
+    color: #666;
+    cursor: pointer;
+    list-style: none;
+    text-align: center;
+    background: #ccc;
+    font: 800 30px/50px "conslas";
+}
+
+#carouselArrowLeft {
+    float: left;
+}
+
+#carouselArrowRight {
+    float: right;
+}
+
+#carouselCircle li#current {
+    color: #fff;
+    background: red;
+}

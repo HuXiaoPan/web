@@ -1,0 +1,10 @@
+#middle {
+    margin-top: 5px;
+    /* background: #0068b7; */
+    position: relative;
+}
+#middleTop {
+    min-width: 1140px;
+    background: #0068b7;
+    position: relative;
+}

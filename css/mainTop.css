@@ -9,8 +9,11 @@ html,
 body,
 #warpper {
     height: 100%;
-    position: relative;
     /* overflow: hidden; */
+}
+
+#warpper {
+    position: relative;
 }
 
 ul {

@@ -24,7 +24,7 @@
 }
 
 #main li {
-    border-left: 1px #ffffff solid; 
+
     text-align: center;
     font-size: 0.8rem;
     display: inline-block;
@@ -33,6 +33,10 @@
     cursor: pointer;
     z-index: 5;
     min-width: 119px;
+}
+
+#main>li {
+    border-left: 1px #ffffff solid; 
 }
 #main:last-child {
     border-right: 1px #ffffff solid;
