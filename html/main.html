@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../css/mainBottom.css">
     <link rel="stylesheet" href="../css/navStyle.css">
     <link rel="stylesheet" href="../css/carousel.css">
+    <link rel="stylesheet" href="../css/modHoverEvent.css">
 
     <!-- 脚本引用 -->
     <script src="../js/carousel.js"></script>
@@ -39,9 +40,9 @@
                             <li>业务领域
                                 <ul class="drop">
                                     <div>
-                                        <li>item1</li>
-                                        <li>item2</li>
-                                        <li>item3</li>
+                                        <li>常规测量</li>
+                                        <li>智慧平台</li>
+                                        <li>BIM系统</li>
                                     </div>
                                 </ul>
                             </li>
@@ -49,10 +50,10 @@
                             <li>新闻资讯
                                 <ul class="drop">
                                     <div>
-                                        <li>item1</li>
-                                        <li>item2</li>
-                                        <li>item3</li>
-                                        <li>item4</li>
+                                        <li>行业头条</li>
+                                        <li>公司动态</li>
+                                        <li>时政新闻</li>
+                                        <li>技术前沿</li>
                                     </div>
                                 </ul>
                             </li>
@@ -75,13 +76,13 @@
                             <img src="../res/carouselImg/02.jpg" alt="">
                         </li>
                         <li>
-                            <img src="../res/03.jpg" alt="">
+                            <img src="../res/carouselImg/01.jpg" alt="">
                         </li>
                         <li>
-                            <img src="../res/04.jpg" alt="">
+                            <img src="../res/carouselImg/02.jpg" alt="">
                         </li>
                         <li>
-                            <img src="../res/05.jpg" alt="">
+                            <img src="../res/carouselImg/01.jpg" alt="">
                         </li>
                     </ul>
                     <ul id="carouselCircle">
@@ -89,15 +90,47 @@
                     <ul id="carouselArrow" class="clearFloat">
                         <li id="carouselArrowLeft">
                             <</li>
-                                <li id="carouselArrowRight">></li>
+                                <li id="carouselArrowRight">>
+                                </li>
                     </ul>
 
                 </div>
             </div>
-            <div></div>
+            <div id="middleBottom">
+                <div id="MiddleMod" class="clearFloat">
+                    <div id="mod1" class="modBlock modHoverEvent">
+                        <img src="../res/modImg/1.png" alt="">
+                        <div>质量可靠，用户放心</div>
+                    </div>
+                    <div id="mod2" class="modBlock modHoverEvent">
+                        <img src="../res/modImg/2.png" alt="">
+                        <div>质量可靠，用户放心</div>
+                    </div>
+                    <div id="mod3" class="modBlock modHoverEvent">
+                        <img src="../res/modImg/3.png" alt="">
+                        <div>质量可靠，用户放心</div>
+                    </div>
+                    <div id="mod4" class="modBlock modHoverEvent">
+                        <img src="../res/modImg/4.png" alt="">
+                        <div>质量可靠，用户放心</div>
+                    </div>
+                    <div id="mod5" class="modBlock modHoverEvent">
+                        <img src="../res/modImg/5.jpg" alt="">
+                    </div>
+                    <div id="mod6" class="modBlock modHoverEvent">
+                        <img src="../res/modImg/6.jpg" alt="">
+                    </div>
+                    <div id="mod7" class="modBlock modHoverEvent">
+                        <img src="../res/modImg/7.jpg" alt="">
+                    </div>
+                    <div id="mod8" class="modBlock modHoverEvent">
+                        <img src="../res/modImg/8.jpg" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- 尾部 -->
-        <div style="position: absolute; bottom: 0px;width: 100%">
+        <div style="position: fixed; bottom: 0px;width: 100%">
             <div id="bottom">
                 <div id="bottomWarpper" class="contentMiddle">
                     <ul id="bottomList">
@@ -112,13 +145,17 @@
                         <li>
                             <ul id="iconList">
                                 <li>
-                                    <img src="../res/weibo.png" alt="weibo">
+                                    <a target="_blank" href="http://weibo.com">
+                                        <img src="../res/weibo.png" alt="weibo">
+                                    </a>
                                 </li>
                                 <li>
                                     <img src="../res/wechat.png" alt="wechat">
                                 </li>
                                 <li>
-                                    <img src="../res/qq.png" alt="qq">
+                                    <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=553299120&site=qq&menu=yes">
+                                        <img src="../res/qq.png" alt="点击这里给我发消息" title="点击这里给我发消息" />
+                                    </a>
                                 </li>
                             </ul>
                         </li>
